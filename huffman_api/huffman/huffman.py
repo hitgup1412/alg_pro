@@ -94,24 +94,3 @@ def decompress_file(compressed_file_path, encoding_table):
         decompressed_file.write(decoded_text)
 
     print(f'File decompressed successfully: {decompressed_file_path}')
-
-
-# Test the compression and decompression
-
-# Compressing the file
-file_to_compress = input('path to file ...\n') # Replace with your file path
-
-#text = ''
-with open(file_to_compress, 'r') as file:
-    text = file.read()
-
-frequency_table = build_frequency_table(text)
-huffman_tree = build_huffman_tree(frequency_table)
-encoding_table = build_encoding_table(huffman_tree)
-
-compress_file(file_to_compress, encoding_table)
-
-# Decompressing the file
-compressed_file_to_decompress = 'alphabet.compressed'  # Replace with your compressed file path
-
-decompress_file(compressed_file_to_decompress, encoding_table)
