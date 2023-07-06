@@ -99,9 +99,9 @@ def decompress_file(compressed_file_path, encoding_table):
 # Test the compression and decompression
 
 # Compressing the file
-file_to_compress = input('path to file ...\n') # Replace with your file path
+file_to_compress = input('path to file ...\n') # inter your file path
 
-#text = ''
+text = ''
 with open(file_to_compress, 'r') as file:
     text = file.read()
 
