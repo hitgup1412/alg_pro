@@ -20,3 +20,7 @@ Decompress a file: POST http://localhost:8000/api/decompress/
 
 # original alghorithms:
     the main directory
+# some of references:
+http://sharif.ir/~shahram.khazaei/files/courses/algorithms/lecture10.pdf
+https://virgool.io/ikavan/prefix-code-%DA%86%DB%8C%D8%B3%D8%AA-rx7j08bfsjik
+https://virgool.io/ikavan/%DA%A9%D8%AF%D9%87%D8%A7%DB%8C-%D9%87%D8%A7%D9%81%D9%85%D9%86-%DA%86%D9%87-%D9%87%D8%B3%D8%AA%D9%86%D8%AF-pqe02l5jhgn0
