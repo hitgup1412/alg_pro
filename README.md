@@ -1,12 +1,13 @@
 # alg_pro
 apis are implemented in django
 # lcs:
-lcs_api - lcs - views.py
+    lcs_api - lcs - views.py
 
 # huffman
-huffman_api - huffman - views.py
+    huffman_api - huffman - views.py
 
-how to:
+
+    how to:
 
     Compress a file: POST http://localhost:8000/api/compress/
         Request body: {"file_path": "/path"}
