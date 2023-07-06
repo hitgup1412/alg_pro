@@ -7,6 +7,7 @@ lcs_api - lcs - views.py
 huffman_api - huffman - views.py
 
 how to:
+
     Compress a file: POST http://localhost:8000/api/compress/
         Request body: {"file_path": "/path"}
         Response: {"message": "File compressed successfully: /path.compressed"}
