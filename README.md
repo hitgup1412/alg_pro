@@ -3,7 +3,6 @@ apis are implemented in django
 # lcs:
     lcs_api - lcs - views.py
 
-    request is done by passing file itself not its path
     the algorithm macths dnas if thay had more than 80% in common (80 by default . there is a third input option to change the treshold)
 
 # huffman
